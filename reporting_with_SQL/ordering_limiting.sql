@@ -18,7 +18,7 @@ SELECT * FROM campaigns ORDER BY sales DESC LIMIT 3;
 -- To page through results you can either use the OFFSET keyword in conjunction with the LIMIT keyword or just with LIMIT alone. SQLite, PostgreSQL and MySQL
 -- SELECT <columns> FROM <table> LIMIT <# of rows> OFFSET <number of skipped rows>;
 -- SELECT <columns> FROM <table> LIMIT <skipped rows>, <# of rows>; 
-SELECT * FROM orders LIMIT 50 OFFSET 100;
+-- SELECT * FROM orders LIMIT 50 OFFSET 100;
 -- MS SQL and Oracle
 -- To page through results you can either use the OFFSET keyword in conjunction with the FETCH keyword. Cannot be used with TOP.
 -- SELECT <columns> FROM <table> OFFSET <skipped rows> ROWS FETCH NEXT <# of rows> ROWS ONLY;
